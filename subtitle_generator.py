@@ -25,7 +25,7 @@ IMAGE_SEQUENCE_OUTPUT_DIRECTORY = "generated_image_sequence"
 logging.getLogger().setLevel("DEBUG")
 
 
-parser = argparse.ArgumentParser(description='Generate subtiltes for a video based on a transcript.')
+parser = argparse.ArgumentParser(description='Generate subtitles for a video based on a transcript.')
 
 parser.add_argument('--input', default="video.mp4", type=str, help='the input file (audio or video)')
 parser.add_argument('--transcript', default="transcript.txt", type=str, help='the transcript file (.txt)')
